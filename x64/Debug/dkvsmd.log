@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\Admin\source\repos\dkvsmd\payer.h(28,15): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\dkvsmd\enemies.h(27,18): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Admin\source\repos\dkvsmd\main.cpp(11,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  dkvsmd.vcxproj -> C:\Users\Admin\source\repos\dkvsmd\x64\Debug\dkvsmd.exe

@@ -3,6 +3,7 @@
 #include "payer.h"
 #include "road.h"
 #include "enemies.h"
+#include"EManager.h"
 using namespace sf;
 
 int main()
@@ -13,6 +14,7 @@ int main()
     window.setFramerateLimit(FPS);
     Player player;
     Road road;
+    EManager emanager;
   // Enemy enemy;
     // Главный цикл приложения. Выполняется, пока открыто окно
     while (window.isOpen())
@@ -28,12 +30,12 @@ int main()
         }
         //update 
         player.update();
-       // enemy.update();
+        emanager.update();
         // Отрисовка окна
         window.clear();
         road.draw(window);
         player.draw(window);
-       // enemy.draw(window);
+        emanager.draw(window);
         window.display();
 
     }
